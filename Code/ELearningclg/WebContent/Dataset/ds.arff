@@ -1,0 +1,74 @@
+@relation classification-of-disease
+
+@attribute fever {1,2,3,4,5,6,7,8,9,10}
+@attribute breath {1,2,3,4,5,6,7,8,9,10}
+@attribute anxiety {1,2,3,4,5,6,7,8,9,10}    
+@attribute headache {1,2,3,4,5,6,7,8,9,10}
+@attribute fatigue {1,2,3,4,5,6,7,8,9,10}
+@attribute exhaustion {1,2,3,4,5,6,7,8,9,10}
+@attribute dizziness {1,2,3,4,5,6,7,8,9,10}
+@attribute fainting {1,2,3,4,5,6,7,8,9,10}
+@attribute depression {1,2,3,4,5,6,7,8,9,10}
+@attribute fastheartrate {
+
+@attribute Disease{ards,atrialFlutter,alcoholwithdrawal,agoraphobia}
+
+@data
+
+
+1,0,0,4,0,0,0,8,9,0,ards
+0,2,3,0,0,6,7,0,0,0,alcoholwithdrawal
+0,2,3,0,0,6,7,8,0,10,atrialFlutter
+0,2,3,4,0,0,7,0,9,10,agoraphobia
+1,2,0,0,0,0,0,0,0,10,ards
+0,2,3,0,0,6,7,0,0,10,atrialFlutter
+0,2,0,0,0,6,7,0,0,10,atrialFlutter
+0,2,3,0,5,6,7,8,9,0,alcoholwithdrawal
+0,0,3,0,0,0,7,0,0,10,agoraphobia
+1,2,0,4,0,6,7,0,9,10,ards
+0,0,3,0,0,6,7,8,9,0,atrialFlutter
+0,0,3,0,5,6,7,8,9,0,alcoholwithdrawal
+0,0,0,0,5,6,7,8,9,0,alcoholwithdrawal
+0,0,0,4,0,6,0,0,9,0,ards
+0,2,0,4,0,0,0,0,0,0,ards
+0,2,0,0,0,0,7,0,9,10,agoraphobia
+0,2,0,4,0,0,0,0,9,0,agoraphobia
+0,2,0,0,0,0,7,8,0,10,atrialFlutter
+0,2,3,0,0,0,7,8,9,0,alcoholwithdrawal
+0,2,3,4,0,0,0,0,0,10,agoraphobia
+0,2,3,0,0,6,7,0,0,0,atrialFlutter
+0,2,0,4,0,0,0,0,0,0,ards
+1,2,0,0,0,0,0,0,9,10,ards
+0,2,0,0,5,0,7,0,9,0,alcoholwithdrawal
+0,0,3,0,0,6,0,8,0,0,atrialFlutter
+0,2,0,4,0,0,7,0,0,0,agoraphobia
+0,0,0,0,5,6,7,0,0,0,alcoholwithdrawal
+0,2,0,0,0,6,7,8,0,0,atrialFlutter 
+1,2,0,0,0,6,0,0,0,0,ards
+0,2,0,4,0,0,7,0,0,0,agoraphobia
+1,2,0,4,0,6,7,0,0,0,ards
+0,2,3,0,0,6,7,8,9,0,alcoholwithdrawal
+0,2,3,0,0,6,0,8,0,10,atrialFlutter
+1,2,0,4,0,6,7,0,0,0,ards
+0,2,0,0,5,6,7,8,9,0,alcoholwithdrawal
+0,0,3,0,5,6,7,8,9,0,alcoholwithdrawal
+1,0,3,4,0,0,0,0,9,0,agoraphobia
+0,2,3,0,0,0,7,0,9,0,alcoholwithdrawal
+0,0,3,4,0,0,0,0,0,10,agoraphobia
+1,0,0,0,0,6,7,0,0,10,ards
+0,2,0,4,0,0,7,0,0,0,agoraphobia
+1,2,0,0,0,6,0,0,0,0,ards
+0,2,0,4,0,0,7,0,9,10,agoraphobia
+0,2,0,4,0,0,7,0,9,10,ards
+0,2,3,4,0,0,0,0,9,10,agoraphobia
+0,2,3,4,0,0,7,0,9,0,agoraphobia         
+1,0,0,0,0,0,0,0,9,0,ards
+
+
+
+
+
+
+
+
+
